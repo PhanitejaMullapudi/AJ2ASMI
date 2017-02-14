@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
 })
 
 export class PublicComponent {
-  ImageUrl:string = "../public/Images/"
+  ImageUrl:string = "../public/Images/";
 }

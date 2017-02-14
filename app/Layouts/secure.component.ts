@@ -5,5 +5,6 @@ import { Component } from '@angular/core';
 })
 
 export class SecureComponent {
+  ImageUrl:string = "../public/Images/";
   
 }
