@@ -8,5 +8,5 @@ import { UserGuard } from './userGuard';
 export const APP_ROUTES: Routes = [
     { path: '', redirectTo: '/login', pathMatch: 'full', },
     { path: '', component: PublicComponent, data: { title: 'Public Views' }, children: PUBLIC_ROUTES },
-    { path: '', component: SecureComponent, canActivate: [UserGuard], data: { title: 'Secure Views' }, children: SECURE_ROUTES }
+    { path: '', component: SecureComponent, canActivate: [UserGuard],  data: { title: 'Secure Views' }, children: SECURE_ROUTES }
 ];
