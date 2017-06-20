@@ -23,7 +23,7 @@ export class LoginComponent {
   }
 
   validateUser() {
-  this.loginService.AuthenticateUser(this.model.email, this.model.password).subscribe(a=>{if(a){this.router.navigate(['/Home'])}});
+  this.loginService.AuthenticateUser(this.model.email, this.model.password).subscribe(a=>{if(a){this.router.navigate(['/home'])}});
   }
 
 }
